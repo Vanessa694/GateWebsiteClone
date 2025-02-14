@@ -1,6 +1,14 @@
 {
-  "dependencies": 
-  "devDependencies": {
-    "tailwindcss": "^4.0.6"
-  }
+  "name": "GateWebsiteClone",                
+  "version": "1.0.0",                        
+  "main": "index.js",                        
+  "scripts": {                               
+    "start": "node server.js",               
+    "build": "tailwindcss build src/input.css -o dist/output.css" 
+  },
+  "dependencies": {                          
+  },
+  "devDependencies": {                       
+    "tailwindcss": "^4.0.6"                  
+}
 }
