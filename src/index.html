@@ -1,13 +1,140 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./output.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penn University</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+<body class="bg-gray-100">
+
+    <div class="bg-indigo-900 text-white text-center py-3">
+        <p class="text-lg font-semibold">
+            <a href="#" class="underline">On Friday, February 14, 2025 the University will suspend normal operations for the Eagles victory parade</a>
+        </p>
+        <p class="text-sm">Normal operations will resume Monday, February 17, 2025</p>
+    </div>
+    
+
+    <header class="bg-white shadow-md py-4 px-6 flex justify-between items-center">
+        <div class="flex items-center space-x-3">
+            <img src="https://www.upenn.edu/themes/custom/penn_starter/assets/img/UPenn-logo.svg" alt="Penn Logo" class="h-10">
+        </div>
+        <nav class="hidden md:flex space-x-6 text-gray-700 font-semibold">
+            <a href="#" class="hover:text-indigo-600">Academics</a>
+            <a href="#" class="hover:text-indigo-600">Admissions & Aid</a>
+            <a href="#" class="hover:text-indigo-600">Athletics</a>
+            <a href="#" class="hover:text-indigo-600">Research & Innovation</a>
+            <a href="#" class="hover:text-indigo-600">Life at Penn</a>
+            <a href="#" class="hover:text-indigo-600">About</a>
+        </nav>
+        <div class="flex space-x-4">
+            <button class="bg-red-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-red-700">Give to Penn</button>
+        </div>
+    </header>
+    
+  
+    <div class="relative w-full h-96 bg-cover bg-center" style="background-image: url('https://www.upenn.edu/sites/default/files/styles/crop_5x3/public/2025-02/avian-bird-flu.jpg?h=d0d32c2c&amp;itok=MaefnWJg');">
+        <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+        <div class="absolute bottom-10 left-10 text-white">
+            <h2 class="text-xl font-bold uppercase">Health Sciences</h2>
+            <h1 class="text-4xl font-extrabold">How Penn is helping with bird flu research and disease surveillance</h1>
+        </div>
+    </div>
+
+   <section class="py-12 px-6 bg-white">
+    <h2 class="text-3xl font-bold text-gray-800 mb-6">News</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    
+
+        <div class="md:col-span-2">
+            <img src="https://penntoday.upenn.edu/sites/default/files/styles/hero/public/2025-02/pavilion-gift-teaser.jpg?h=b83630f8&itok=ZKoi7CiF" alt="News Image" class="w-full h-80 object-cover rounded-lg shadow">
+            <h3 class="text-red-600 font-semibold mt-4">Health Sciences</h3>
+            <h2 class="text-2xl font-bold mt-2">Catherine and Anthony Clifton make transformational gift to accelerate patient care, research, and education at Penn Medicine</h2>
+        </div>
+  
+        <div class="flex flex-col gap-6">
+            <div class="flex items-center space-x-4">
+                <img src="https://penntoday.upenn.edu/sites/default/files/styles/teaser/public/2025-02/epstein-jon-teaser.jpg" alt="News" class="w-32 h-24 object-cover rounded-lg">
+                <div>
+                    <h3 class="text-red-600 font-semibold">Health Sciences</h3>
+                    <p class="text-gray-800 font-medium">Jonathan A. Epstein named head of Perelman School of Medicine and Penn Health System</p>
+                </div>
+            </div>
+            <div class="flex items-center space-x-4">
+                <img src="https://penntoday.upenn.edu/sites/default/files/styles/teaser/public/2025-02/america-250-teaser-social-main.jpg" alt="News" class="w-32 h-24 object-cover rounded-lg">
+                <div>
+                    <h3 class="text-red-600 font-semibold">Arts, Humanities, & Social Sciences</h3>
+                    <p class="text-gray-800 font-medium">Penn prepares to mark America's 250th birthday</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="bg-gray-100 flex items-center justify-center h-screen">
+    <div class="relative w-full h-full">
+
+        <div class="absolute inset-0">
+            <img src="https://www.upenn.edu/sites/default/files/styles/crop_2x1/public/2025-01/penn-center-innovation.jpg?h=92c5d8ae&itok=3O1cAYdA" alt="Penn Center Background" class="w-full h-full object-cover">
+        </div>
+        
+
+        <div class="relative bg-indigo-900 text-white max-w-md p-8 rounded-lg shadow-lg left-20 top-1/4">
+            <p class="uppercase text-xs tracking-widest text-gray-300 mb-2">Campus & Community</p>
+            <h2 class="text-2xl font-semibold leading-tight mb-4">Penn Center for Innovation celebrates 10 years</h2>
+            <p class="text-sm text-gray-300 mb-6">The University’s nexus for technology transfer supports researchers in their innovative efforts, from CAR T to mRNA advancements that have dramatically reshaped the world.</p>
+            <button class="px-6 py-2 border border-white rounded-full text-white hover:bg-white hover:text-indigo-900 transition duration-300">
+                Learn More
+            </button>
+        </div>
+    </div>
+</section>
+
+    <section class="max-w-6xl mx-auto py-12 px-6 bg-white">
+        <h2 class="text-4xl font-serif font-semibold text-purple-900 mb-8 border-l-4 border-purple-900 pl-3">Upcoming Events</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+            <div class="relative bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="event-image1.jpg" alt="Event 1" class="w-full h-56 object-cover">
+                <div class="absolute top-3 right-3 bg-red-600 text-white text-center py-1 px-3 rounded-md">
+                    <span class="block text-xs font-bold">FEB</span>
+                    <span class="block text-xl font-bold">18</span>
+                </div>
+                <div class="p-6">
+                    <p class="text-xs font-semibold text-gray-500 tracking-wide">TALKS</p>
+                    <h3 class="text-lg font-semibold text-gray-900 mt-2">Managing Presentation Anxiety</h3>
+                    <p class="text-gray-600 text-sm mt-2">Communication Within the Curriculum Associate Director Sue Weber offers tips and tricks to control anxiety during public speaking. A Penn graduate student ID is required.</p>
+                </div>
+            </div>
+
+  
+            <div class="relative bg-white shadow-md rounded-lg p-6">
+                <div class="absolute top-3 right-3 bg-red-600 text-white text-center py-1 px-3 rounded-md">
+                    <span class="block text-xs font-bold">FEB</span>
+                    <span class="block text-xl font-bold">19</span>
+                </div>
+                <p class="text-xs font-semibold text-gray-500 tracking-wide">SPECIAL EVENTS</p>
+                <h3 class="text-lg font-semibold text-gray-900 mt-2">Historic Pennsylvania Hospital Tour</h3>
+                <p class="text-gray-600 text-sm mt-2">Holman Biotech Commons hosts a public tour of Pennsylvania Hospital, the nation’s first hospital. Attendees will tour the Great Court, Historic Library, and Surgical Amphitheatre. Registration is required.</p>
+            </div>
+
+      
+            <div class="relative bg-white shadow-md rounded-lg p-6">
+                <div class="absolute top-3 right-3 bg-red-600 text-white text-center py-1 px-3 rounded-md">
+                    <span class="block text-xs font-bold">FEB</span>
+                    <span class="block text-xl font-bold">21</span>
+                </div>
+                <p class="text-xs font-semibold text-gray-500 tracking-wide">TALKS</p>
+                <h3 class="text-lg font-semibold text-gray-900 mt-2">Jesse Rothstein</h3>
+                <p class="text-gray-600 text-sm mt-2">Jesse Rothstein, a professor of public policy and economics at the University of California, Berkeley, hosts a seminar about the role of social safety net programs in college student success.</p>
+            </div>
+        </div>
+    </section>
+
+
+
 </body>
 </html>
